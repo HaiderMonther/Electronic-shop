@@ -1,0 +1,183 @@
+/* *{
+   margin: 0px;
+   padding: 2px;
+}
+
+.container{
+   width: 120px;
+   height: 100vh;
+   background-color: antiquewhite;
+   color:black;
+}
+
+.container p {
+   padding: 4px;
+}
+
+button{
+   padding: 3px;
+   color: rgb(255, 196, 0);
+   border: 9px; 
+   border-radius: 5px;
+}
+
+.container p:hover , button:hover{
+   background: rgb(233, 156, 25) ;
+   border: 3px; 
+   border-radius: 5px;
+   cursor: pointer;
+}
+#close{
+position: absolute;
+left: 125px;
+}
+.hide{
+   display: none;
+} */
+
+/* 
+
+.photos img{
+ width: 200px;
+ height: 200px;
+ border: 5px solid #aaa;  
+}
+
+
+.photos img:hover{
+  cursor: pointer;
+   border: 5px solid #fa0;  
+  }
+
+  .main img{
+   width: 500px;
+   height: 500px;
+   border: 5px solid  #aaa
+  }
+
+  .main img:hover{
+   cursor: pointer;
+   border: 5px solid #fa0} */
+
+
+
+
+   /* body{
+      height: 2000px;
+      width: 2000px;
+   }
+   
+#btn{
+ width: 27px;
+ height: 27px;
+ background: chocolate;
+ cursor: pointer;
+ border: none;
+ position: fixed;
+ right: 10px;
+ bottom: 10px;
+ display: none;
+   } */
+
+
+
+
+
+
+
+
+
+*{
+   margin: 0;
+   padding: 0;
+}
+
+body{
+   background: #222;
+   color: #fff;
+   font-family: system-ui;
+}
+
+.crud{
+   width: 80%;
+   margin:  auto;
+}
+
+.head{
+   text-align: center;
+   text-transform: uppercase;
+   margin: 10px 0;
+}
+
+input{
+   width: 100%;
+   height: 30px;
+   outline: none;
+   border: none;
+   background: #111;
+   margin: 4px 0;
+   border-radius: 4px;
+   padding:  4px;
+   color: #fff;
+}
+
+input:focus{
+   background: rgb(5, 4, 4);
+   transform: scale(1.1);
+}
+.price input{
+   width: 20%;
+}
+
+#total{
+   background: #a00da0;
+   padding: 4px 2px ;
+   border-radius:4px;
+
+}
+
+#total::before{
+   content: 'Total: ';
+}
+button{
+   width: 100%;
+   height: 30px;
+   border: none;
+   cursor: pointer;
+   background: #6f0da0c4;
+   color: #fff;
+   border-radius: 20px;
+   padding: 4px;
+   transition:0.5s ;
+}
+
+button:hover{
+   background: hsla(280, 83%, 59%, 0.769);
+   letter-spacing: 1px;
+   
+}
+.btnsearch{
+   display: flex;
+   justify-content:space-between ;
+}
+
+#deleteAll{
+   margin: 20px;
+}
+.btnsearch button{
+width: 45%;
+}
+
+table{
+   width: 100%;
+   text-align: center;
+   margin: 10px 0;
+}
+
+table th{
+   text-transform: uppercase;
+}
+
+th,td{
+   padding: 5px;
+}
